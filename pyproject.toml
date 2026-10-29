@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shredder-recon"
+version = "0.1.0"
+description = "Portable Nmap enumeration assistant for authorized labs and engagements"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+
+[project.optional-dependencies]
+pretty = ["rich>=13.7,<15"]
+dns = ["dnspython>=2.6,<3"]
+
+[project.scripts]
+shredder = "shredder:main"
+
+[tool.setuptools]
+py-modules = ["shredder"]

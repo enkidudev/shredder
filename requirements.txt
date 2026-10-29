@@ -1,0 +1,3 @@
+# Optional enhancements; the core also runs with only Python + external Nmap.
+rich>=13.7,<15
+dnspython>=2.6,<3

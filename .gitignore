@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+results/
+*.nmap
+*.gnmap
+*.xml
+*.log
+*script-args*
+.env
+
+# Local packaging and editor artifacts
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+.DS_Store
