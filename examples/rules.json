@@ -1,0 +1,12 @@
+[
+  {
+    "id": "local-gssapi",
+    "script_id": "ldap-rootdse",
+    "contains": "GSSAPI",
+    "title": "Directory advertises GSSAPI",
+    "priority": "follow-up",
+    "why": "A supported authentication mechanism was advertised; successful authentication remains untested.",
+    "next_check": "Review the directory authentication mechanisms with available credentials and verify the intended hostname.",
+    "references": ["https://nmap.org/nsedoc/scripts/ldap-rootdse.html"]
+  }
+]
